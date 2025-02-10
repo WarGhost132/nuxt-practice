@@ -1,0 +1,10 @@
+{
+  "welcome": "Welcome!",
+  "pages": {
+    "index": {
+      "title": "Main page",
+      "description": "Home page description",
+      "languages": "Available languages"
+    }
+  }
+}
