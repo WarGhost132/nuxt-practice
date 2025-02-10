@@ -6,5 +6,27 @@
       "description": "Описание главной страницы",
       "languages": "Доступные языки"
     }
+  },
+  "components": {
+    "shared": {
+      "header": {
+        "navigation": {
+          "dashboard": "Панель управления",
+          "team": "Команда",
+          "projects": "Проекты",
+          "calendar": "Календарь",
+          "reports": "Отчеты"
+        },
+        "notification": "Просмотреть уведомления",
+        "user": {
+          "open-menu": "Открыть меню пользователя",
+          "menu": {
+            "profile": "Профиль",
+            "settings": "Настройки",
+            "sign-out": "Выйти"
+          }
+        }
+      }
+    }
   }
 }

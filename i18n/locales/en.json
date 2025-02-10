@@ -6,5 +6,27 @@
       "description": "Home page description",
       "languages": "Available languages"
     }
+  },
+  "components": {
+    "shared": {
+      "header": {
+        "navigation": {
+          "dashboard": "Dashboard",
+          "team": "Team",
+          "projects": "Projects",
+          "calendar": "Calendar",
+          "reports": "Reports"
+        },
+        "notification": "View notifications",
+        "user": {
+          "open-menu": "Open user menu",
+          "menu": {
+            "profile": "Your Profile",
+            "settings": "Settings",
+            "sign-out": "Sign out"
+          }
+        }
+      }
+    }
   }
 }

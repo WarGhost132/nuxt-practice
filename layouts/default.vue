@@ -18,6 +18,7 @@ const title = computed(() => t(route.meta.title ?? 'TBD'))
         </template>
       </Head>
       <Body>
+        <SharedHeader />
         <slot />
       </Body>
     </Html>
