@@ -1,0 +1,32 @@
+{
+  "welcome": "Bienvenue !",
+  "pages": {
+    "index": {
+      "title": "Page d'accueil",
+      "description": "Bienvenue sur notre page d'accueil ! Vous trouverez ici toutes les informations nécessaires sur nos services, les dernières nouvelles et promotions. Nous nous efforçons de fournir à nos clients le meilleur service et la meilleure qualité. Commencez votre voyage avec nous dès aujourd'hui !",
+      "languages": "Langues disponibles"
+    }
+  },
+  "components": {
+    "shared": {
+      "header": {
+        "navigation": {
+          "dashboard": "Tableau de bord",
+          "team": "Équipe",
+          "projects": "Projets",
+          "calendar": "Calendrier",
+          "reports": "Rapports"
+        },
+        "notification": "Voir les notifications",
+        "user": {
+          "open-menu": "Ouvrir le menu utilisateur",
+          "menu": {
+            "profile": "Profil",
+            "settings": "Paramètres",
+            "sign-out": "Déconnexion"
+          }
+        }
+      }
+    }
+  }
+}

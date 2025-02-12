@@ -1,0 +1,32 @@
+{
+  "welcome": "欢迎！",
+  "pages": {
+    "index": {
+      "title": "主页",
+      "description": "欢迎访问我们的主页！在这里，您可以找到关于我们服务的所有必要信息、最新新闻和促销活动。我们致力于为客户提供最好的服务和品质。立即开始与我们的旅程吧！",
+      "languages": "可用语言"
+    }
+  },
+  "components": {
+    "shared": {
+      "header": {
+        "navigation": {
+          "dashboard": "仪表板",
+          "team": "团队",
+          "projects": "项目",
+          "calendar": "日历",
+          "reports": "报告"
+        },
+        "notification": "查看通知",
+        "user": {
+          "open-menu": "打开用户菜单",
+          "menu": {
+            "profile": "个人资料",
+            "settings": "设置",
+            "sign-out": "退出"
+          }
+        }
+      }
+    }
+  }
+}

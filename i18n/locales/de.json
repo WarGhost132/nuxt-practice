@@ -1,0 +1,32 @@
+{
+  "welcome": "Willkommen!",
+  "pages": {
+    "index": {
+      "title": "Startseite",
+      "description": "Willkommen auf unserer Startseite! Hier finden Sie alle notwendigen Informationen über unsere Dienstleistungen, die neuesten Nachrichten und Aktionen. Wir streben danach, unseren Kunden den besten Service und die beste Qualität zu bieten. Beginnen Sie Ihre Reise mit uns noch heute!",
+      "languages": "Verfügbare Sprachen"
+    }
+  },
+  "components": {
+    "shared": {
+      "header": {
+        "navigation": {
+          "dashboard": "Dashboard",
+          "team": "Team",
+          "projects": "Projekte",
+          "calendar": "Kalender",
+          "reports": "Berichte"
+        },
+        "notification": "Benachrichtigungen anzeigen",
+        "user": {
+          "open-menu": "Benutzermenü öffnen",
+          "menu": {
+            "profile": "Profil",
+            "settings": "Einstellungen",
+            "sign-out": "Abmelden"
+          }
+        }
+      }
+    }
+  }
+}

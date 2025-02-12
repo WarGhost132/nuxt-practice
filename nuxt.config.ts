@@ -7,9 +7,10 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
+    '@nuxt/icon',
     'nuxt-headlessui',
   ],
-  
+
   i18n: {
     baseUrl: 'http://localhost:3000',
     lazy: true,
@@ -18,15 +19,33 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'ru',
-        name: 'Русский',
+        name: 'russia',
         file: 'ru.json',
         language: 'ru-RU',
       },
       {
         code: 'en',
-        name: 'English',
+        name: 'united-kingdom',
         file: 'en.json',
         language: 'en-US',
+      },
+      {
+        code: 'de',
+        name: 'germany',
+        file: 'de.json',
+        language: 'de-DE',
+      },
+      {
+        code: 'fr',
+        name: 'france',
+        file: 'fr.json',
+        language: 'fr-FR',
+      },
+      {
+        code: 'zh',
+        name: 'china',
+        file: 'zh.json',
+        language: 'zh-CN',
       },
     ],
   },

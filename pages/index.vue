@@ -3,27 +3,23 @@ definePageMeta({
   title: 'pages.index.title',
 })
 
-const { locale, locales, t } = useI18n()
-const switchLocalePath = useSwitchLocalePath()
-
-const availableLocales = computed(() => {
-  return locales.value.filter(i => i.code !== locale.value)
-})
+const { t } = useI18n()
 </script>
 
 <template>
-  <div>
-    <p>{{ t('pages.index.description') }}</p>
-    <p>{{ t('pages.index.languages') }}</p>
-    <nav>
-      <template v-for="(localization, index) in availableLocales" :key="localization.code">
-        <span v-if="index"> | </span>
-        <NuxtLink :to="switchLocalePath(localization.code)">
-          {{ localization.name ?? localization.code }}
-        </NuxtLink>
-      </template>
-    </nav>
-
-    <p>{{ t('welcome') }}</p>
+  <div class="p-5 flex justify-center">
+    <UiCard>
+      <div class="flex flex-col">
+        <div class="flex justify-end">
+          <SharedSwitcher />
+        </div>
+        <div class="flex flex-col gap-4">
+          <h1 class="text-2xl">
+            {{ t('welcome') }}
+          </h1>
+          <p>{{ t('pages.index.description') }}</p>
+        </div>
+      </div>
+    </UiCard>
   </div>
 </template>
