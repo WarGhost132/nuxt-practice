@@ -14,7 +14,7 @@ function setFlag(flag: string) {
 <template>
   <div class="flex items-center gap-3 bg-zinc-800 border border-zinc-800 rounded-full p-3">
     <p>{{ t('pages.index.languages') }}:</p>
-    <div v-for="(localization, index) in availableLocales" :key="localization.code" class="flex items-center">
+    <div v-for="localization in availableLocales" :key="localization.code" class="flex items-center">
       <NuxtLink :to="switchLocalePath(localization.code)" class="flex items-center">
         <Icon :name="setFlag(localization.name ?? 'russia')" size="30" />
       </NuxtLink>
